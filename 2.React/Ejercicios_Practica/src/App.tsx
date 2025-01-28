@@ -3,6 +3,8 @@ import { useState } from "react";
 import Ejercicio2 from "./components/Ejercicio2";
 import Contador from "./components/Ejercicio3";
 import ChangeColor from "./components/Ejercicio4";
+import LoginForm from "./components/Ejercicio5";
+import DinamycList from "./components/Ejercicio6";
 const App = () => {
   //ejercicio1 y 2
   const [Estado, setEstado] = useState(false);
@@ -30,6 +32,16 @@ const App = () => {
       <div>
         <h4>Ejercicio 4</h4>
         <ChangeColor />
+      </div>
+      <br></br>
+      <div>
+        <h4>Ejercicio 5</h4>
+        <LoginForm />
+      </div>
+      <br></br>
+      <div>
+        <h4>Ejercicio 6</h4>
+        <DinamycList />
       </div>
     </>
   );

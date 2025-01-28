@@ -19,7 +19,6 @@ const ChangeColor = () => {
       >
         Este párrafo cambiará de color
       </div>
-      <br></br>
       <button onClick={handleClick} type="button" className="btn btn-info">
         Cambiar color
       </button>
