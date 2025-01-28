@@ -1,11 +1,8 @@
-import { ReactNode } from "react";
-
 type Props = {
-  children: ReactNode;
   Estado: boolean;
 };
 
-const Card = ({ children, Estado }: Props) => {
+const Ejercicio2 = ({ Estado }: Props) => {
   let text =
     "Some quick example text to build on the card title and make up the bulk of the card's content.";
   return (
@@ -20,4 +17,4 @@ const Card = ({ children, Estado }: Props) => {
   );
 };
 
-export default Card;
+export default Ejercicio2;
