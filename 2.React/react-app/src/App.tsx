@@ -50,6 +50,7 @@ function App() {
         <Button onClick={deleteMessi}>Eliminar</Button>
         <List data={Data} />
       </Card>
+      <h1>Todo esto fue en vano</h1>
     </>
   );
 }
